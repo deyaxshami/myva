@@ -17,6 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "MyVa",
   description: "MyVa is a service outsourcing company focused on generating highly qualified Real Estate Seller leads for Real Estate Agents and Investors. MyVa is your outsourcing spot for handling all those activities that you need to delegate in your business.",
+  viewport: "width=device-width, initial-scale=1.0"
 };
 
 export default function RootLayout({
