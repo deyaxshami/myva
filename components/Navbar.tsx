@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 import Image from "next/image";
 import logo from "../public/logo.webp"
 import { ModeToggle } from "./ThemeSwitcher";
-import { NavigationMenuDemo } from "./NavigationMenu";
+import { MyMenu } from "./NavigationMenu";
 
 
 
@@ -17,7 +17,7 @@ export default function Navbar() {
                     <Image src={logo} alt="MyVa Logo" width={50} height={50} />
                 </Link>
                 <div className="sm:flex items-center gap-6">
-                    <NavigationMenuDemo />
+                    <MyMenu />
                 </div>
             </div>
             <div className="flex items-center gap-4">

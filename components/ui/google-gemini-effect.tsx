@@ -22,17 +22,17 @@ export const GoogleGeminiEffect = ({
 }) => {
   return (
     <div className={cn("sticky top-80", className)}>
-      <p className="text-lg md:text-7xl font-normal pb-10 text-center bg-clip-text shadow-accent text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300">
+      <p className="text-lg md:text-7xl font-normal pb-10 text-center bg-clip-text shadow-accent text-transparent bg-gradient-to-b from-neutral-300 to-neutral-500 dark:from-neutral-400 dark:to-neutral-800">
         Scale your business to the next level
       </p>
-      <p className="text-lg md:text-7xl font-normal pb-5 text-center bg-clip-text shadow-accent text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300">with MyVA</p>
+      <p className="text-lg md:text-7xl font-normal pb-5 text-center bg-clip-text shadow-accent text-transparent bg-gradient-to-b from-neutral-600 to-neutral-800 dark:from-neutral-100 dark:to-neutral-300">With MyVA</p>
       <p className="text-xs md:text-xl font-normal text-center text-neutral-400 max-w-xl mx-auto">
         {description ||
           `Scroll this component and see the bottom SVG come to life wow this
         works!`}
       </p>
       <div className="w-full h-[890px] -top-60 md:-top-40  flex items-center justify-center bg-red-transparent absolute ">
-        <Link className="font-bold bg-white rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-96 mt-8 z-30 md:text-base text-black text-xs  w-fit mx-auto" href={"/contact-us"}>LEARN MORE</Link>
+        <Link className="font-bold dark:bg-white bg-black rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-96 mt-8 z-30 md:text-base text-white dark:text-black  text-xs  w-fit mx-auto" href={"/contact-us"}>LEARN MORE</Link>
       </div>
 
       <svg
