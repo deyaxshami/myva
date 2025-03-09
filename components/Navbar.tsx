@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { Button } from "./ui/button";
 import Image from "next/image";
 import logo from "../public/logo.webp"
 import { ModeToggle } from "./ThemeSwitcher";
