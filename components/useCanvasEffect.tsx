@@ -15,7 +15,16 @@ import experienceImage from "../public/experience.png"
 export function UseCanvasRevealEffect() {
     return (
         <>
-            <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8">
+            <div className="mt-40 mb-8">
+                <h1 className="text-5xl m-6">
+                    SOME OF OUR NUMBERS
+                </h1>
+                <p>
+                    We’re with you, you’ll have a whole team to help you reach your goal whether that is your first deal or growing your existing business. Together, with MyVA team and system, you’ll see the needed growth for your business without feeling an effort.
+                </p>
+            </div>
+            <div className="py-8 mb-16 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8">
+
                 <Card
                     imageURL={databaseImage}
                     content={["- 30 Million + Records", "- Seller Nationwide", "- Data Records"]}

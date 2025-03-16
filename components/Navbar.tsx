@@ -11,7 +11,7 @@ import { MyMenu } from "./NavigationMenu";
 
 export default function Navbar() {
     return (
-        <nav className="container m-auto py-5 px-8 flex items-center justify-between">
+        <nav className="∂h-24 fixed top-0 bg-[var(--background)] w-full z-50 m-auto py-5 px-8 flex items-center justify-between">
             <div className="flex items-center gap-6">
                 <Link href="/">
                     <Image src={logo} alt="MyVa Logo" width={50} height={50} />
