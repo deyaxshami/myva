@@ -1,32 +1,30 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import databaseImage from "../public/database.png"
-import callerImage from "../public/caller.png"
-import calenderImage from "../public/calender.png"
-import experienceImage from "../public/experience.png"
 import Usegemini from "@/components/ui/useGemini";
+import { UseCanvasRevealEffect } from "@/components/useCanvasEffect";
 
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen  font-[family-name:var(--font-geist-sans)]">
       <main className="container m-auto flex flex-col gap-8 row-start-2 items-center sm:items-start">
-      <Usegemini />
-
-        <div>
-          <h1>
+        <Usegemini />
+        <div className="mt-40">
+          <h1 className="text-5xl m-6">
             SOME OF OUR NUMBERS
           </h1>
           <p>
             We’re with you, you’ll have a whole team to help you reach your goal whether that is your first deal or growing your existing business. Together, with MyVA team and system, you’ll see the needed growth for your business without feeling an effort.
           </p>
+          <UseCanvasRevealEffect>
 
+          </UseCanvasRevealEffect>
           <div className="flex justify-around">
-            <div className=""><Image src={databaseImage} alt="database image" width={100} height={100}></Image></div>
+            {/* <div className=""><Image src={databaseImage} alt="database image" width={100} height={100}></Image></div>
             <div className=""><Image src={calenderImage} alt="calender image" width={100} height={100}></Image></div>
             <div className=""><Image src={callerImage} alt="caller image" width={100} height={100}></Image></div>
-            <div className=""><Image src={experienceImage} alt="experience image" width={100} height={100}></Image></div>
+            <div className=""><Image src={experienceImage} alt="experience image" width={100} height={100}></Image></div> */}
           </div>
         </div>
 

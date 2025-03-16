@@ -18,11 +18,11 @@ export default function Usegemini() {
 
     return (
         <div
-            className="h-[400vh] bg-white dark:bg-black w-full dark:border dark:border-white/[0.1] rounded-md relative overflow-clip"
+            className="h-[200vh] bg-white dark:bg-black w-full dark:border dark:border-white/[0.1] rounded-md relative overflow-clip"
             ref={ref}
         >
             <GoogleGeminiEffect
-                // title="Scale your business to the next level with MyVA"
+                title="Scale your business to the next level with MyVA"
                 description="MyVa is a service outsourcing company focused on generating highly qualified Real Estate Seller leads for Real Estate Agents and Investors. MyVa is your outsourcing spot for handling all those activities that you need to delegate in your business."
                 pathLengths={[
                     pathLengthFirst,
