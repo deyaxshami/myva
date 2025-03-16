@@ -23,7 +23,7 @@ export function UseCanvasRevealEffect() {
                     We’re with you, you’ll have a whole team to help you reach your goal whether that is your first deal or growing your existing business. Together, with MyVA team and system, you’ll see the needed growth for your business without feeling an effort.
                 </p>
             </div>
-            <div className="py-8 mb-16 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8">
+            <div className="py-8 mb-16 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-[var(--background)] w-full gap-4 mx-auto px-8">
 
                 <Card
                     imageURL={databaseImage}
