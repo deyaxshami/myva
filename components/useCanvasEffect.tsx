@@ -15,7 +15,7 @@ import experienceImage from "../public/experience.png"
 export function UseCanvasRevealEffect() {
     return (
         <>
-            <div className="mt-40 mb-8">
+            <div className="mt-60 mb-8">
                 <h1 className="text-5xl m-6">
                     SOME OF OUR NUMBERS
                 </h1>

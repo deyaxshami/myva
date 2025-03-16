@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import Usegemini from "@/components/ui/useGemini";
 import { UseCanvasRevealEffect } from "@/components/useCanvasEffect";
+import FeaturesSectionDemo from "@/components/features-section-demo-2";
 
 
 export default function Home() {
@@ -11,9 +12,9 @@ export default function Home() {
       <main className="container m-auto flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Usegemini />
 
-          <UseCanvasRevealEffect />
+        <UseCanvasRevealEffect />
 
-
+        <FeaturesSectionDemo />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
