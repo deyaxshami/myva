@@ -23,6 +23,12 @@ const informations: { title: string; href: string; description: string }[] = [
             "We are always there to provide help",
     },
     {
+        title: "Terms Of Service",
+        href: "/termsofservice",
+        description:
+            "Understand the terms and conditions for using MyVA services.",
+    },
+    {
         title: "About Us",
         href: "/about",
         description:
