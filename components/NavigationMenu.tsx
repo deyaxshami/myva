@@ -19,21 +19,23 @@ const informations: { title: string; href: string; description: string }[] = [
     {
         title: "Contact Us",
         href: "/contact-us",
-        description:
-            "We are always there to provide help",
-    },
-    {
+        description: "Get in touch with us.",
+      },
+      {
         title: "Terms Of Service",
         href: "/terms-of-service",
-        description:
-            "Understand the terms and conditions for using MyVA services.",
-    },
-    {
+        description: "Our service terms.",
+      },
+      {
+        title: "Privacy Policy",
+        href: "/privacy-policy",
+        description: "How we handle your data.",
+      },
+      {
         title: "About Us",
         href: "/about",
-        description:
-            "Our Story behind MyVA",
-    }
+        description: "Learn about MyVA.",
+      }
 ]
 
 const Services: { title: string; href: string; description: string }[] = [
