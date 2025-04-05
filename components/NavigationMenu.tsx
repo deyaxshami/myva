@@ -24,7 +24,7 @@ const informations: { title: string; href: string; description: string }[] = [
     },
     {
         title: "Terms Of Service",
-        href: "/termsofservice",
+        href: "/terms-of-service",
         description:
             "Understand the terms and conditions for using MyVA services.",
     },
