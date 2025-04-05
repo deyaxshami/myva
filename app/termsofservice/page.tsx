@@ -5,93 +5,171 @@ import Link from "next/link";
 
 export default function Home() {
     return (
-        <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen  font-[family-name:var(--font-geist-sans)]">
-            {`
-Example 
-TERMS OF SERVICE
+        <div className="mt-36 font-[family-name:var(--font-geist-sans)]">
 
-Last Updated: [Insert Date]
+            <div className="m-10">
+                <h1>
+                    TERMS OF SERVICE
+                </h1>
+                <h5>
+                    Last Updated: 05 April 2025
+                </h5>
+            </div>
+            <div className="m-10">
+                <h2>
+                    1. Introduction
+                </h2>
+                <p>
+                    Welcome to MyVA LLC (&quot;Company,&quot; &quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). By accessing or using our services, including virtual assistance, telemarketing, customer support, HR, admin work, and other business process outsourcing (BPO) solutions, you agree to be bound by these Terms of Service (&quot;Terms&quot;).
 
-1. Introduction
-Welcome to MyVA LLC ("Company," "we," "our," or "us"). By accessing or using our services, including virtual assistance, telemarketing, customer support, HR, admin work, and other business process outsourcing (BPO) solutions, you agree to be bound by these Terms of Service ("Terms").
+                    If you do not agree to these Terms, please do not use our services.
+                </p>
+            </div>
 
-If you do not agree to these Terms, please do not use our services.
 
-2. Services Provided
-MyVA LLC provides offshore virtual assistant services to businesses, including but not limited to:
+            <div className="m-10">
+                <h2>
+                    2. Services Provided
+                </h2>
+                <p>
+                    MyVA LLC provides offshore virtual assistant services to businesses, including but not limited to:
 
-    Telemarketing & Lead Generation
+                    Telemarketing & Lead Generation
 
-    Customer Support & Call Center Services
+                    Customer Support & Call Center Services
 
-    Administrative Assistance
+                    Administrative Assistance
 
-    HR & Recruitment Support
+                    HR & Recruitment Support
 
-    Data Entry & Back-Office Tasks
+                    Data Entry & Back-Office Tasks
 
-    Digital Marketing & Social Media Management
+                    Digital Marketing & Social Media Management
 
-We act as an intermediary between clients and virtual assistants (VAs), ensuring quality services and support.
+                    We act as an intermediary between clients and virtual assistants (VAs), ensuring quality services and support.
+                </p>
+            </div>
 
-3. Client Responsibilities
-By using our services, clients agree to:
 
-    Provide clear and legal tasks for VAs to perform.
+            <div className="m-10">
+                <h2>
+                    3. Client Responsibilities
+                </h2>
+                <p>
+                    By using our services, clients agree to:
 
-    Treat VAs with professionalism and respect.
+                    Provide clear and legal tasks for VAs to perform.
 
-    Adhere to agreed-upon payment schedules.
+                    Treat VAs with professionalism and respect.
 
-    Comply with local and international laws regarding outsourcing and telemarketing practices.
+                    Adhere to agreed-upon payment schedules.
 
-4. Virtual Assistant (VA) Responsibilities
-All VAs provided by MyVA LLC must:
+                    Comply with local and international laws regarding outsourcing and telemarketing practices.
+                </p>
+            </div>
 
-    Follow client instructions within ethical and legal guidelines.
+            <div className="m-10">
+                <h2>
+                    4. Virtual Assistant (VA) Responsibilities
+                </h2>
+                <p>
+                    All VAs provided by MyVA LLC must:
 
-    Maintain confidentiality regarding client data.
+                    Follow client instructions within ethical and legal guidelines.
 
-    Adhere to performance expectations and communication policies.
+                    Maintain confidentiality regarding client data.
 
-Failure to comply may result in termination of service or legal action.
+                    Adhere to performance expectations and communication policies.
 
-5. Payment & Fees
+                    Failure to comply may result in termination of service or legal action.
+                </p>
+            </div>
 
-    Clients agree to pay fees as outlined in their service agreement.
 
-    Payments are non-refundable unless otherwise stated.
+            <div className="m-10">
+                <h2>
+                    5. Payment & Fees
+                </h2>
 
-    Failure to pay may result in suspension or termination of services.
+                <p>
+                    Clients agree to pay fees as outlined in their service agreement.
 
-6. Termination & Refunds
+                    Payments are non-refundable unless otherwise stated.
 
-    MyVA LLC reserves the right to terminate services for violations of these Terms.
+                    Failure to pay may result in suspension or termination of services.
+                </p>
 
-    Clients may terminate services with prior notice, but refunds are subject to review.
+            </div>
 
-7. Confidentiality & Data Protection
 
-    MyVA LLC and its VAs agree to keep client information confidential.
+            <div className="m-10">
+                <h2>
+                    6. Termination & Refunds
+                </h2>
+                <p>
+                    MyVA LLC reserves the right to terminate services for violations of these Terms.
 
-    Clients must also respect the confidentiality of VAs and company operations.
+                    Clients may terminate services with prior notice, but refunds are subject to review.
+                </p>
+            </div>
 
-    We follow data security practices but cannot guarantee absolute protection.
 
-8. Limitation of Liability
 
-    MyVA LLC is not liable for indirect, incidental, or consequential damages.
+            <div className="m-10">
 
-    Clients assume responsibility for how they use our services.
+                <h2>
+                    7. Confidentiality & Data Protection
+                </h2>
 
-9. Governing Law
-These Terms are governed by the laws of [Your State/Country].
+                <p>
+                    MyVA LLC and its VAs agree to keep client information confidential.
 
-10. Contact Information
-For any inquiries, contact us at:
-📧 yourva@myva.cc
-📞 [Your Phone Number]
-`}
+                    Clients must also respect the confidentiality of VAs and company operations.
+
+                    We follow data security practices but cannot guarantee absolute protection.
+                </p>
+            </div>
+
+
+            <div className="m-10">
+                <h2>
+                    8. Limitation of Liability
+                </h2>
+
+                <p>
+                    MyVA LLC is not liable for indirect, incidental, or consequential damages.
+
+                    Clients assume responsibility for how they use our services.
+                </p>
+            </div>
+
+            <div className="m-10">
+
+                <h2>
+                    9. Governing Law
+                </h2>
+
+                <p>
+                    These Terms are governed by the laws of [Your State/Country].
+                </p>
+
+            </div>
+
+
+            <div className="m-10">
+                <h2>
+                    10. Contact Information
+                </h2>
+
+                <p>
+                    For any inquiries, contact us at:
+                    📧 yourva@myva.cc
+                    📞 [Your Phone Number]
+                </p>
+            </div>
+
+
+
         </div>
     );
 }
