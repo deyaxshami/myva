@@ -77,8 +77,7 @@ export default function Home() {
                     Governing Law
                 </h2>
                 <p>
-                    These Terms shall be governed and construed in accordance with the laws of the {"PLACE HOLDER"}, without regard to its conflict of law principles.
-
+                    These Terms shall be governed and construed in accordance with the laws of the State of Wyoming, United States, without regard to its conflict of law principles.
                 </p>
             </div>
 
