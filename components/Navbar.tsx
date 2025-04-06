@@ -11,13 +11,13 @@ import { MyMenu } from "./NavigationMenu";
 
 export default function Navbar() {
     return (
-        <nav className="h-24 fixed top-0 bg-[var(--background)] border-b-2 border-[var(--dark)] w-full z-50 m-auto py-5 px-8 flex items-center justify-around">
+        <nav className="h-24 fixed top-0 bg-[var(--background)]  w-full z-50 m-auto py-5 px-8 flex items-center justify-between">
             <div className="flex items-center gap-6">
                 <Link href="/">
-                    <Image src={logo} alt="MyVa Logo" width={75} height={75} />
+                    <Image src={logo} alt="MyVa Logo" width={50} height={50} />
                 </Link>
                 <div className="sm:flex items-center gap-6">
-                    {/* <MyMenu /> */}
+                    <MyMenu />
                 </div>
             </div>
             <div className="flex items-center gap-4">
