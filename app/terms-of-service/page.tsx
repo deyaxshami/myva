@@ -91,7 +91,6 @@ export default function Home() {
 
                 <p>
                     We reserve the right to modify these Terms at any time. Continued use of the site after changes implies acceptance of the updated Terms.
-
                 </p>
             </div>
 
