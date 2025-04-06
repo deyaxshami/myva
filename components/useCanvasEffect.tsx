@@ -28,7 +28,7 @@ export function UseCanvasRevealEffect() {
 
                 <Card
                     imageURL={databaseImage}
-                    content={["- 30 Million + Records", "- Seller Nationwide", "- Data Records"]}
+                    content={["- 30+ Million Records", "- Seller Nationwide", "- Data Records"]}
                     icon={<Image src={logo} alt="MyVa Logo" width={150} height={150} />
                     }>
                     <CanvasRevealEffect
