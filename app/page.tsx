@@ -1,9 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
-
 import Usegemini from "@/components/ui/useGemini";
 import { UseCanvasRevealEffect } from "@/components/useCanvasEffect";
 import FeaturesSectionDemo from "@/components/features-section-demo-2";
+import GlowingEffectDemo from "@/components/OurApproach";
+
 
 
 export default function Home() {
@@ -15,6 +14,8 @@ export default function Home() {
         <UseCanvasRevealEffect />
 
         <FeaturesSectionDemo />
+
+        <GlowingEffectDemo />
       </main>
     </div>
   );
