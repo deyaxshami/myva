@@ -46,7 +46,7 @@ export default function Footer() {
                 </span>
                 <a
                     className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-                    href="tel:+1234567890"
+                    href="tel:+13053493152"
                 >
                     <IconPhone
                         aria-hidden
@@ -54,7 +54,7 @@ export default function Footer() {
                         height={16}
                     >
                     </IconPhone>
-                    +1 (234) 567-890
+                    +1 (305) 349-3152
                 </a>
                 <a
                     className="flex items-center gap-2 hover:underline hover:underline-offset-4"
