@@ -17,7 +17,7 @@ export default function Navbar() {
                     <Image src={logo} alt="MyVa Logo" width={50} height={50} />
                 </Link>
                 <div className="sm:flex items-center gap-6">
-                    <MyMenu />
+                    {/* <MyMenu /> */}
                 </div>
             </div>
             <div className="flex items-center gap-4">
