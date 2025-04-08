@@ -1,29 +1,25 @@
-import { IconBrandLinkedin, IconBrandFacebook, IconBrandInstagram, IconMail, IconPhone, IconBrandGoogleMaps } from "@tabler/icons-react";
+import { IconBrandLinkedin, IconBrandFacebook, IconBrandInstagram, IconMail, IconPhone, IconBrandGoogleMaps, IconCalendarClock } from "@tabler/icons-react";
 import Link from "next/link";
 
 
 
 export default function Footer() {
-    const informations: { title: string; href: string; description: string }[] = [
+    const informations: { title: string; href: string;}[] = [
         {
-            title: "Contact Us",
-            href: "/contact-us",
-            description: "Get in touch with us.",
+            title: "FQA",
+            href: "/fqa",
         },
         {
             title: "Terms Of Service",
             href: "/terms-of-service",
-            description: "Our service terms.",
         },
         {
             title: "Privacy Policy",
             href: "/privacy-policy",
-            description: "How we handle your data.",
         },
         {
             title: "About Us",
             href: "/about",
-            description: "Learn about MyVA.",
         }
     ]
     return (
@@ -81,6 +77,20 @@ export default function Footer() {
                     >
                     </IconBrandGoogleMaps>
                     30 N Gould St, Sheridan, WY 82801, USA
+                </a>
+                <a
+                    className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                    href="https://calendly.com/yourva-myva/30min"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <IconCalendarClock
+                        aria-hidden
+                        width={16}
+                        height={16}
+                    >
+                    </IconCalendarClock>
+                    Schedule an Appointment
                 </a>
             </div>
             <div className="row-start-3 flex gap-6 flex-wrap items-center justify-center mb-16">

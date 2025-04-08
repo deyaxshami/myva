@@ -32,7 +32,7 @@ export const GoogleGeminiEffect = ({
         works!`}
       </p>
       <div className="w-full h-[890px] -top-60 md:-top-40  flex items-center justify-center bg-red-transparent absolute ">
-        <Link className="font-bold dark:bg-white bg-black rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-96 mt-8 z-30 md:text-base text-white dark:text-black  text-xs  w-fit mx-auto" href={"/contact-us"}>LEARN MORE</Link>
+        <a className="font-bold dark:bg-white bg-black rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-96 mt-8 z-30 md:text-base text-white dark:text-black  text-xs  w-fit mx-auto" href={"https://calendly.com/yourva-myva/30min"} target="_blank">Schedule an Appointment</a>
       </div>
 
       <svg
