@@ -66,7 +66,7 @@ export default function Footer() {
                 </a>
                 <a
                     className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-                    href="https://www.google.com/maps?q=30+N+Gould+St,+Sheridan,+WY+82801,+USA"
+                    href="https://maps.app.goo.gl/vHWksYXrGpFQrGUC8?g_st=ic"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
