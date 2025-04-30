@@ -7,7 +7,7 @@ export default function Home() {
                     Privacy Policy
                 </h1>
                 <h5>
-                    Last Updated: 05 April 2025
+                    Effective Date: April 28, 2025
                 </h5>
                 <p>
                     This Privacy Policy explains how MyVA LLC handles your personal information.
@@ -16,76 +16,91 @@ export default function Home() {
 
             <div className="m-10">
                 <h2>
-                    Information Collection
+                    1. Information We Collect
                 </h2>
                 <p>
-                    We do not collect any personal information through our website. Client data is collected only after the onboarding process begins, and this is handled via direct communication and not through the website.
+                    We do not actively collect personal information through forms. <br />
+                    Visitors may voluntarily provide personal information by contacting us via phone or email, or by scheduling meetings through external calendar links.
                 </p>
             </div>
 
 
             <div className="m-10">
                 <h2>
-                    Use of Information
+                    2. How We Use Your Information
                 </h2>
                 <p>
-                    Collected information post-onboarding is used solely to provide and improve our services. We do not share, sell, or rent your personal data to third parties.
+                    To respond to inquiries. <br />
+                    To schedule and manage consultations. <br />
+                    To deliver services.
                 </p>
             </div>
 
             <div className="m-10">
                 <h2>
-                    Cookies and Tracking
+                    3. Sharing of Information
                 </h2>
                 <p>
-                    Our website may use cookies to enhance user experience. You may choose to disable cookies via your browser settings.
-                </p>
-            </div>
-
-
-            <div className="m-10">
-                <h2>
-                    Data Security
-                </h2>
-
-                <p>
-                    We implement appropriate security measures to protect client data collected after onboarding.
-                </p>
-
-            </div>
-
-
-            <div className="m-10">
-                <h2>
-                    International Use and Data Handling
-                </h2>
-                <p>
-                    While we serve clients internationally, we do not use, resell, or repurpose any data provided by clients for any reason beyond the agreed service. Any data shared with us is used solely to carry out the tasks assigned by the client.
-                    Data may be accessed or processed by our team members located in various countries, but always under strict confidentiality and for the sole purpose of delivering services to the client. We do not use client data for our own purposes under any circumstances.
-                </p>
-            </div>
-
-
-
-            <div className="m-10">
-
-                <h2>
-                    Contact
-                </h2>
-
-                <p>
-                    If you have any questions about these policies, please contact us at: yourva@myva.cc
+                    We do not sell, rent, or trade your personal information to third parties. <br />
+                    We may share necessary billing details with third-party payment processors (Wise, Payoneer, Grey) for payment processing purposes.
                 </p>
             </div>
 
 
             <div className="m-10">
                 <h2>
-                    Changes to Privacy Policy
+                    4. Third-Party Services
                 </h2>
 
                 <p>
-                    This policy may be updated periodically. Please review this page regularly for updates.
+                    We use third-party services for secure payment processing. Please refer to their privacy policies for more information: <br />
+
+                    <ul>
+                        <a href="https://wise.com/us/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Wise Privacy Policy</a>
+                    </ul>
+                    <ul>
+                        <a href="https://www.payoneer.com/en/legal/privacy-policy/" target="_blank" rel="noopener noreferrer">Payoneer Privacy Policy</a>
+                    </ul>
+                    <ul>
+                        <a href="https://grey.co/privacy-policy" target="_blank" rel="noopener noreferrer">Grey Privacy Policy</a>
+                    </ul>
+
+                </p>
+
+            </div>
+
+
+            <div className="m-10">
+                <h2>
+                    5. Security
+                </h2>
+                <p>
+                    We take reasonable measures to protect your information but cannot guarantee 100% security due to the nature of the Internet.
+                </p>
+            </div>
+
+
+
+            <div className="m-10">
+
+                <h2>
+                    6. Your Rights
+                </h2>
+
+                <p>
+                    Depending on your location, you may have rights to access, correct, or delete your personal information.
+                    Please contact us at yourva@myva.cc or raven@myva.cc for any privacy-related inquiries.
+                </p>
+            </div>
+
+
+            <div className="m-10">
+                <h2>
+                    7. Changes to This Privacy Policy
+                </h2>
+
+                <p>
+                    We may update this Privacy Policy from time to time. We will notify users by updating the “Effective Date” of this policy.
                 </p>
             </div>
 

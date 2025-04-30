@@ -7,7 +7,7 @@ export default function Home() {
                     Terms of Service
                 </h1>
                 <h5>
-                    Last Updated: 05 April 2025
+                    Effective Date: April 28, 2025
                 </h5>
                 <p>
                     Welcome to MyVA LLC. By accessing or using our website, you agree to be bound by the following Terms of Service. Please read them carefully.
@@ -15,58 +15,55 @@ export default function Home() {
             </div>
             <div className="m-10">
                 <h2>
-                    Services Provided
+                    1. Services
                 </h2>
                 <p>
-                    MyVA LLC offers virtual assistant services including but not limited to telemarketing, customer support, administrative tasks, HR, and other business support services. The website provides information about our services but does not currently facilitate direct sign-ups or onboarding through the site.
+                    We provide virtual assistant (VA) services, including but not limited to administrative support, CRM management, real estate assistance, and other back-office services.                </p>
+            </div>
+
+
+            <div className="m-10">
+                <h2>
+                    2. Scheduling and Communication
+                </h2>
+                <p>
+                    Clients can schedule consultations via our provided calendar links. <br />
+                    Contact can be made via our listed phone numbers or emails: yourva@myva.cc and raven@myva.cc.
                 </p>
             </div>
 
 
             <div className="m-10">
                 <h2>
-                    Client Engagement
+                    3. Payment Terms
                 </h2>
                 <p>
-                    Engagement with our services begins after a mutual agreement is established outside the website platform. Communication, data collection, and invoicing are handled post-onboarding and are not conducted through the website.
+                    Payments are processed externally via Wise, Payoneer, and Grey. <br />
+                    Clients are required to pay according to agreed-upon hours and rates. <br />
+                    If the prepaid hours exceed the actual hours worked, the client will be eligible for a refund for the unused hours. <br />
+                    No refunds will be issued once the agreed service has been fully delivered.
+
+                </p>
+            </div>
+
+            <div className="m-10">
+                <h2>
+                    4. Cancellation Policy
+                </h2>
+                <p>
+                    Clients may cancel their services at any time with two (2) weeks' written notice. <br />
+                    Failure to provide timely notice may result in charges for the upcoming service period.
                 </p>
             </div>
 
 
             <div className="m-10">
                 <h2>
-                    3. Client Responsibilities
-                </h2>
-                <p>
-                    By using our services, clients agree to:
-
-                    Provide clear and legal tasks for VAs to perform.
-
-                    Treat VAs with professionalism and respect.
-
-                    Adhere to agreed-upon payment schedules.
-
-                    Comply with local and international laws regarding outsourcing and telemarketing practices.
-                </p>
-            </div>
-
-            <div className="m-10">
-                <h2>
-                    Payments & Refunds
-                </h2>
-                <p>
-                    All payments are due as per agreement with the client. We do not offer refunds unless the service is not fulfilled from our end, in which case a partial or full refund may be issued at our discretion.
-                </p>
-            </div>
-
-
-            <div className="m-10">
-                <h2>
-                    Intellectual Property
+                    5. Intellectual Property
                 </h2>
 
                 <p>
-                    All content, logos, branding, and material on this website are the property of MyVA LLC and may not be copied or used without explicit written permission.
+                    All materials and content on our website are the property of MyVA LLC and may not be copied, modified, or distributed without written permission.
                 </p>
 
             </div>
@@ -74,24 +71,31 @@ export default function Home() {
 
             <div className="m-10">
                 <h2>
-                    Governing Law
+                    6. Limitation of Liability
                 </h2>
                 <p>
-                    These Terms shall be governed and construed in accordance with the laws of the State of Wyoming, United States, without regard to its conflict of law principles.
+                    To the fullest extent permitted by law, MyVA LLC is not liable for any indirect, incidental, special, consequential, or punitive damages arising out of or relating to your use of the services.
                 </p>
             </div>
 
+            <div className="m-10">
+                <h2>
+                    7. Governing Law
+                </h2>
+                <p>
+                    These Terms are governed by the laws of the State of Wyoming, United States, without regard to its conflict of law principles.
+                </p>
+            </div>
 
 
             <div className="m-10">
 
                 <h2>
-                    Changes to Terms
+                    8. Changes to Terms
                 </h2>
 
                 <p>
-                    We reserve the right to modify these Terms at any time. Continued use of the site after changes implies acceptance of the updated Terms.
-                </p>
+                    We may update these Terms at any time by posting an updated version on our website. Continued use of our services after changes means you accept the updated Terms.                </p>
             </div>
 
         </div>
