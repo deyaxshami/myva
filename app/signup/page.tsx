@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Checkbox } from "@/components/ui/checkbox"
+import Link from "next/link";
 
 
 export default function SignupFormDemo() {
@@ -19,6 +20,9 @@ export default function SignupFormDemo() {
       </h2>
       <p className="mt-2 max-w-sm text-sm text-neutral-600 dark:text-neutral-300">
         Create an account to provide or receive support through MyVa.
+      </p>
+      <p className="mt-2 max-w-sm text-sm text-neutral-600 dark:text-neutral-300">
+        Already have an account? <Link className="text-blue-600 hover:underline" href={"/signin"}>Sign in</Link>
       </p>
 
       <form className="my-8" onSubmit={handleSubmit}>

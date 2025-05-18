@@ -3,6 +3,7 @@ import React from "react";
 import { Label } from "../../components/ui/label";
 import { Input } from "../../components/ui/input";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 export default function SignupFormDemo() {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -15,7 +16,10 @@ export default function SignupFormDemo() {
                 Welcome to MyVa
             </h2>
             <p className="mt-2 max-w-sm text-sm text-neutral-600 dark:text-neutral-300">
-                Sign in to your MyVa account to get or provide support.
+                Sign in to your account to offer or receive support.
+            </p>
+            <p className="mt-2 max-w-sm text-sm text-neutral-600 dark:text-neutral-300">
+                Don’t have an account yet? <Link className="text-blue-600 hover:underline" href={"/signup"}>Sign up</Link>
             </p>
 
             <form className="my-8" onSubmit={handleSubmit}>
@@ -39,6 +43,10 @@ export default function SignupFormDemo() {
                 </button>
 
                 <div className="my-8 h-[1px] w-full bg-gradient-to-r from-transparent via-neutral-300 to-transparent dark:via-neutral-700" />
+
+                <p className="mt-2 max-w-sm text-sm text-neutral-600 text-center dark:text-neutral-300">
+                    <Link className="text-blue-600 hover:underline" href={"/resetpassword"}>Forgot your password?</Link>
+                </p>
             </form>
         </div>
     );
