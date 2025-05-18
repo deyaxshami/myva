@@ -22,6 +22,19 @@ export default function Navbar() {
             </div>
             <div className="flex items-center gap-4">
                 <ModeToggle />
+
+                <Link href={"/signin"}>
+                    <Button className="cursor-pointer">
+                        Sign In
+                    </Button>
+                </Link>
+
+                <Link href={"/signup"}>
+                    <Button className="cursor-pointer">
+                        Sign Up
+                    </Button>
+                </Link>
+
             </div>
         </nav>
     );
