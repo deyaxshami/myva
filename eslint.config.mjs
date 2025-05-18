@@ -17,7 +17,7 @@ const eslintConfig = [
       "unused-imports/no-unused-imports": "off", // Disable unused imports error
       "@typescript-eslint/no-explicit-any": "off",
       "prefer-const": "off",
-      "react/no-unescaped-entities": "off"
+      "react/no-unescaped-entities": "off",
     },
   },
 ];
