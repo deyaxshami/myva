@@ -1,0 +1,105 @@
+// Define database connection via the `DATABASE_URL` env var
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Define custom output path for generated Prisma Client
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Member {
+  memberID                     String        @id @default(uuid())
+  createdAt                    DateTime      @default(now())
+  firstName                    String
+  middleName                   String?
+  lastName                     String
+  privateEmail                 String        @unique
+  WorkEmail                    String        @unique
+  mobileNumber                 String        @unique
+  age                          Int
+  sex                          Sex
+  currency                     Currency
+  joinLLC                      DateTime
+  memberPic                    String
+  address                      Address       @relation(fields: [addressAddressID], references: [addressID])
+  paymentMethod                PaymentMethod @relation(fields: [paymentMethodPaymentMethodID], references: [PaymentMethodID])
+  IDCard                       IDCard        @relation(fields: [iDCardCardID], references: [cardID])
+  addressAddressID             String        @unique
+  paymentMethodPaymentMethodID String        @unique
+  iDCardCardID                 String        @unique
+}
+
+model IDCard {
+  cardID     String  @id @default(uuid())
+  frontPicID String
+  backPicID  String
+  Member     Member?
+}
+
+enum Sex {
+  MALE
+  FEMALE
+}
+
+model Address {
+  addressID   String  @id @default(uuid())
+  street      String
+  houseNumber String
+  zipCode     String
+  city        String
+  governorate String
+  country     String
+  Member      Member?
+}
+
+enum Currency {
+  USD
+  USDT
+  USDC
+  EUR
+  EGP
+}
+
+enum PreferredPaymentMethod {
+  EYGPT_VODAFONE_CASH
+  EYGPT_INSTAPAY
+}
+
+enum EYGPTGovernorates {
+  CAIRO
+  GIZA
+  ALEXANDRIA
+  PORT_SAID
+  SUEZ
+  DAKAHLIA
+  SHARQIA
+  QALYUBIA
+  KAFR_EL_SHEIKH
+  GHARBIA
+  MONUFIA
+  BEHEIRA
+  ISMAILIA
+  MINYA
+  BENI_SUEF
+  FAIYUM
+  ASSIUT
+  SOHAG
+  QENA
+  LUXOR
+  ASWAN
+  RED_SEA
+  NEW_VALLEY
+  MATROUH
+  NORTH_SINAI
+  SOUTH_SINAI
+  DAMIETTA
+}
+
+model PaymentMethod {
+  PaymentMethodID        String                 @id @default(uuid())
+  preferredPaymentMethod PreferredPaymentMethod
+  relevantPaymentDetails String
+  Member                 Member?
+}
