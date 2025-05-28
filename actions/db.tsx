@@ -1,9 +1,10 @@
+'use server';
 import { PrismaClient } from '@prisma/client'
 import { withAccelerate } from '@prisma/extension-accelerate'
 
 const prisma = new PrismaClient().$extends(withAccelerate())
 
-export const ADDME = async () => {
+export const ADDMEE = async () => {
     const users = await prisma.member.create({
         data: {
             firstName: "Mohammad",

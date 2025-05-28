@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Checkbox } from "@/components/ui/checkbox"
 import Link from "next/link";
-import { ADDME } from "@/actions/db";
+import { ADDMEE } from "@/actions/db";
 
 
 export default function SignupFormDemo() {
@@ -87,7 +87,7 @@ export default function SignupFormDemo() {
           <button
             className="group/btn relative cursor-pointer block h-10 w-full rounded-md bg-gradient-to-br from-black to-neutral-600 font-medium text-white shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:bg-zinc-800 dark:from-zinc-900 dark:to-zinc-900 dark:shadow-[0px_1px_0px_0px_#27272a_inset,0px_-1px_0px_0px_#27272a_inset]"
             type="submit"
-            onClick={ADDME}
+            onClick={ADDMEE}
           >
             Sign up &rarr;
             <BottomGradient />

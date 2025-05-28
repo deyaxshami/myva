@@ -1,7 +1,7 @@
 // Define database connection via the `DATABASE_URL` env var
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = env("DATABASE_URL0")
 }
 
 // Define custom output path for generated Prisma Client
@@ -25,10 +25,10 @@ model Member {
   memberPic                    String
   address                      Address       @relation(fields: [addressAddressID], references: [addressID])
   paymentMethod                PaymentMethod @relation(fields: [paymentMethodPaymentMethodID], references: [PaymentMethodID])
-  IDCard                       IDCard        @relation(fields: [iDCardCardID], references: [cardID])
+  IDCard                       IDCard?       @relation(fields: [iDCardCardID], references: [cardID])
   addressAddressID             String        @unique
   paymentMethodPaymentMethodID String        @unique
-  iDCardCardID                 String        @unique
+  iDCardCardID                 String?       @unique
 }
 
 model IDCard {
